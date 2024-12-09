@@ -1,0 +1,184 @@
+[
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "name": "Laptop",
+        "price": "999.99",
+        "description": "A high-performance laptop for work and gaming.",
+        "create_date": "2024-01-01T10:00:00Z",
+        "views": 150,
+        "stock_qty": 20
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "name": "Smartphone",
+        "price": "499.99",
+        "description": "Latest model smartphone with advanced features.",
+        "create_date": "2024-01-02T12:00:00Z",
+        "views": 300,
+        "stock_qty": 50
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "name": "Bluetooth Headphones",
+        "price": "89.99",
+        "description": "Noise-cancelling Bluetooth headphones with long battery life.",
+        "create_date": "2024-01-03T14:00:00Z",
+        "views": 200,
+        "stock_qty": 30
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "name": "Smart Watch",
+        "price": "199.99",
+        "description": "Track your fitness and stay connected with this stylish smart watch.",
+        "create_date": "2024-01-04T16:00:00Z",
+        "views": 120,
+        "stock_qty": 40
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 5,
+      "fields": {
+        "name": "Wireless Mouse",
+        "price": "19.99",
+        "description": "Ergonomic wireless mouse with adjustable DPI.",
+        "create_date": "2024-01-05T18:00:00Z",
+        "views": 80,
+        "stock_qty": 60
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 6,
+      "fields": {
+        "name": "Keyboard",
+        "price": "49.99",
+        "description": "Mechanical keyboard with RGB lighting and tactile feedback.",
+        "create_date": "2024-01-06T20:00:00Z",
+        "views": 150,
+        "stock_qty": 50
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 7,
+      "fields": {
+        "name": "4K Monitor",
+        "price": "299.99",
+        "description": "Ultra HD 4K monitor for work and gaming.",
+        "create_date": "2024-01-07T22:00:00Z",
+        "views": 250,
+        "stock_qty": 10
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 8,
+      "fields": {
+        "name": "External Hard Drive",
+        "price": "99.99",
+        "description": "1TB external hard drive for data storage and backup.",
+        "create_date": "2024-01-08T10:30:00Z",
+        "views": 175,
+        "stock_qty": 35
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 9,
+      "fields": {
+        "name": "Digital Camera",
+        "price": "599.99",
+        "description": "High-resolution digital camera for professional photography.",
+        "create_date": "2024-01-09T12:30:00Z",
+        "views": 300,
+        "stock_qty": 15
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 10,
+      "fields": {
+        "name": "Action Camera",
+        "price": "199.99",
+        "description": "Compact and waterproof camera for action sports.",
+        "create_date": "2024-01-10T14:30:00Z",
+        "views": 180,
+        "stock_qty": 25
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 11,
+      "fields": {
+        "name": "VR Headset",
+        "price": "349.99",
+        "description": "Immersive VR headset for gaming and virtual experiences.",
+        "create_date": "2024-01-11T16:30:00Z",
+        "views": 120,
+        "stock_qty": 20
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 12,
+      "fields": {
+        "name": "Gaming Chair",
+        "price": "159.99",
+        "description": "Ergonomic chair designed for long gaming sessions.",
+        "create_date": "2024-01-12T18:30:00Z",
+        "views": 210,
+        "stock_qty": 40
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 13,
+      "fields": {
+        "name": "Drone",
+        "price": "399.99",
+        "description": "High-performance drone with 4K camera and long battery life.",
+        "create_date": "2024-01-13T20:30:00Z",
+        "views": 230,
+        "stock_qty": 12
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 14,
+      "fields": {
+        "name": "Smart Speaker",
+        "price": "89.99",
+        "description": "Voice-controlled smart speaker with excellent sound quality.",
+        "create_date": "2024-01-14T22:30:00Z",
+        "views": 150,
+        "stock_qty": 60
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 15,
+      "fields": {
+        "name": "Portable Power Bank",
+        "price": "29.99",
+        "description": "5000mAh power bank to keep your devices charged on the go.",
+        "create_date": "2024-01-15T10:00:00Z",
+        "views": 180,
+        "stock_qty": 100
+      }
+    }
+  ]
+  
+
