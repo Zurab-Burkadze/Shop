@@ -16,6 +16,7 @@
           <h5 class="card-title"> {{ product.name }} </h5>
           <p class="card-text fw-bold"> {{ product.price }}$ </p>
           <p class="card-text"> {{ product.description }} </p>
+          <a class="btn btn-success" href="{% url 'add_to_cart' product.id %}">Add To Cart</a>
         </div>
       </div>
     </div>
