@@ -16,6 +16,10 @@
           <h5 class="card-title"> {{ product.name }} </h5>
           <p class="card-text fw-bold"> {{ product.price }}$ </p>
           <p class="card-text"> {{ product.description }} </p>
+          <div class="d-flex mt-5">
+            <a href="{% url 'update_product' product.id %}" type="button" class="btn btn-primary btn-sm">Update</a>
+            <a href="{% url 'delete_product' product.id %}" type="button" class="btn btn-danger btn-sm ms-2">Delete Product</a>
+          </div>
           <a class="btn btn-success" href="{% url 'add_to_cart' product.id %}">Add To Cart</a>
         </div>
       </div>

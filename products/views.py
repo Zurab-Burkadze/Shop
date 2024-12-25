@@ -70,6 +70,26 @@ def create_product(request):
 
     return render(request, 'create_product.html', context={'form' : form})
 
+def update_product(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    form = ProductForm(instance=product)
+
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            form.save()
+            messages.add_message(request, messages.SUCCESS, 'Your product has been Updated successfully.')
+            return redirect('product_detail', product_id=product_id)
+
+    return render(request, 'product_form.html',
+                  {'form': form})
+
+def delete_product(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    product.delete()
+    messages.add_message(request, messages.SUCCESS, 'Your product has been deleted.')
+    return redirect('home')
+
 def cart_view(request):
     cart, created = Cart.objects.get_or_create(user=request.user)
     return render(request, 'cart.html', context={'cart' : cart})
@@ -79,4 +99,12 @@ def add_to_cart(request, product_id):
     cart_item = CartItem.objects.create(product=product, 
                                         cart=request.user.cart)
     return redirect('product_detail', product_id=product_id)
+
+def delete_cart_item(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    cart_item = CartItem.objects.get(product=product, 
+                                        cart=request.user.cart)
+    cart_item.delete()
+    return redirect('cart')
+    
 
